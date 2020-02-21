@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.banner{
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
+nav{
+    padding: 10px;
+}
+.btn-pink{
+    background-color: #f63048;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+}
+.rascunho-logo{
+    border: 1px solid ;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+.banner-title{
+    padding: 10px;
+    color: white;
+}
+.banner_subtitle{
+    padding: 10px;
+    color: white;
+}
+.forms-download{
+    padding: 10px;
+    height: 10rem;
+}
