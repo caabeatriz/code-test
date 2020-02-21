@@ -59,3 +59,21 @@ nav{
     -moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
     box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
 }
+.learning{
+    margin-top: 90px;
+    padding: 25px;
+}
+.learning-cap-box{
+    margin: 20px 0 20px 0;
+}
+
+.color-gray{
+    color: gray;
+}
+.learning-cap-box_imgTitle{
+    display: flex;
+    align-items: end;
+}
+.learning-cap-box_subtitle{
+    margin-left: 20px;
+}
