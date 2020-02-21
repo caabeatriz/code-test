@@ -5,8 +5,9 @@
 }
 .banner{
     padding: 20px;
-    background-color: grey;
+    background-color: #2a2a2a;
     color: white;
+    height: 50rem;
 }
 nav{
     padding: 10px;
@@ -21,7 +22,12 @@ nav{
     border-radius: 5px;
 }
 .rascunho-logo{
-    border: 1px solid ;
+    border: 1px solid white ;
+    color: white;
+    width: 7rem;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .text-uppercase{
@@ -37,5 +43,19 @@ nav{
 }
 .forms-download{
     padding: 10px;
-    height: 10rem;
+}
+.forms-download input{
+    background-color: gray;
+    padding: 10px 0 10px;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.banner-img-ebook{
+    padding: 61px;
+}
+.banner-img-ebook img {
+    -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
+    box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
 }
