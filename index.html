@@ -9,6 +9,7 @@
 <body>
   
     <header class="banner">
+        <div class="container">
         <nav>
             <a href="" >
                 <img src="" alt="">
@@ -26,11 +27,14 @@
             <div class="forms-download">
                 <div>
                     <h4 for="">Nome completo*</h4>
-                    <input type="text" placeholder="Nome" >
+                    <input type="text" placeholder="Nome" id="bannerName">
+                    <p id="error" class="message-error"></p>
                 </div>
                 <div>
                     <h4 for="">Email*</h4>
-                    <input type="text" placeholder="seuemail@gmail.com">
+                    <input type="text" placeholder="seuemail@gmail.com" id="bannerEmail">
+                    <p id="errorEmail" class="message-error"></p>
+
                 </div>
                 <button class="btn-pink text-uppercase"> Receber conteúdo gratuito</button>
           </div>
@@ -38,10 +42,13 @@
         <div class="banner-img-ebook">
             <img src="assets/img/img-ebook.png" alt="Fundo verde com letras brancas, título seu ebook e subtítulo com coloque a capa do seu ebook aqui">
         </div>
+    </div>
+
     </header>
 
     <section class="learning">
-        <h1>
+        <div class="container">
+                    <h1>
             Nesse e-book você vai aprender sobre o assunto [assunto]
         </h1>
         <p>
@@ -91,6 +98,39 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    
+    <section class="teachers">
+        <div class="container">
+            <img src="assets/img/teacher.png" alt="Homem sorrindo em preto e branco" class="teachers">
+
+            <h1 class="teachers-title">
+                Nome do professor
+            </h1>
+            <p class="text-uppercase">
+                Área de atuação do professor
+            </p>
+
+            <p class="teachers-subtitle" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dignissimos illum corporis, magnam reprehenderit dicta molestiae iste, libero accusantium, vitae aspernatur neque possimus quibusdam velit quisquam quidem ex. Sit, aut!
+            </p>
+            <p class="teachers-subtitle font-bold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eius totam velit cum doloremque ducimus amet nobis accusamus aperiam voluptatem, tempora ea. Incidunt, quibusdam vel similique impedit explicabo aliquid maiores.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="download">
+        <div class="container">
+        <h1>Não perca essa chance e garanta esse conteúdo agora mesmo</h1>
+        <p>Descreva que dor sue e-book resolve</p>
+        <button class="btn-pink">
+            Receber conteúdo gratuito
+        </button>
+    </div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
