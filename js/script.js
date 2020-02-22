@@ -9,6 +9,11 @@ inputName.addEventListener("blur", function(event){
     }
 })
 
+inputName.addEventListener("keyup", function(event){
+    event.preventDefault()
+     messageErrorName.style.display = "none";
+ })
+
 inputEmail.addEventListener("blur", function(event){
     if(inputEmail.value == "" || inputEmail.value.indexOf('@') == -1 || inputEmail.value.indexOf('.') == -1 || inputEmail.value.indexOf('@') < 1 || inputEmail.value.lastIndexOf('.')  < inputEmail.value.indexOf('@') +2){
         messageErrorEmail.style.display = "block";
@@ -19,6 +24,4 @@ inputEmail.addEventListener("blur", function(event){
 inputEmail.addEventListener("keyup", function(event){
    event.preventDefault()
     messageErrorEmail.style.display = "none";
-    messageErrorEmail.innerHTML = "teste"
-    console.log("teste11")
 })
