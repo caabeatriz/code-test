@@ -3,8 +3,10 @@
     padding: 0;
     border: none;
 }
+.container{
+    padding: 25px;
+}
 .banner{
-    padding: 20px;
     background-color: #2a2a2a;
     color: white;
     height: 50rem;
@@ -52,7 +54,7 @@ nav{
 }
 
 .banner-img-ebook{
-    padding: 61px;
+    padding: 40px;
 }
 .banner-img-ebook img {
     -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
@@ -60,8 +62,8 @@ nav{
     box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
 }
 .learning{
-    margin-top: 90px;
-    padding: 25px;
+    margin-top: 150px;
+
 }
 .learning-cap-box{
     margin: 20px 0 20px 0;
@@ -76,4 +78,26 @@ nav{
 }
 .learning-cap-box_subtitle{
     margin-left: 20px;
+}
+.teachers{
+    background-color: #f3f3f3;
+}
+.teachers img{
+    width: 100%;
+}
+.teachers-title{
+    margin-top: 40px;
+}
+.teachers-subtitle{
+    margin-top: 20px;
+}
+.font-bold{
+    font-weight: bold;
+}
+.download{
+    background-color: #2a2a2a;
+    color: white;
+}
+.message-error{
+    color: greenyellow;
 }
