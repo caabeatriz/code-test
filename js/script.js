@@ -4,7 +4,9 @@ const inputEmail = document.querySelector("#bannerEmail")
 const messageErrorEmail = document.querySelector("#errorEmail") 
 
 inputName.addEventListener("blur", function(event){
-    if(inputName.value.length < "2"){
+    event.preventDefault()
+    if(inputName.value.length <= "2"){
+        messageErrorName.style.display = "block";
         messageErrorName.innerHTML = "digite seu nome completo"
     }
 })
@@ -15,9 +17,10 @@ inputName.addEventListener("keyup", function(event){
  })
 
 inputEmail.addEventListener("blur", function(event){
+    event.preventDefault()
     if(inputEmail.value == "" || inputEmail.value.indexOf('@') == -1 || inputEmail.value.indexOf('.') == -1 || inputEmail.value.indexOf('@') < 1 || inputEmail.value.lastIndexOf('.')  < inputEmail.value.indexOf('@') +2){
         messageErrorEmail.style.display = "block";
-        messageErrorEmail.innerHTML = "digite seu e-mail válido"
+        messageErrorEmail.innerHTML = "digite um e-mail válido"
     }    
 })
 
