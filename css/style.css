@@ -3,6 +3,9 @@
     padding: 0;
     border: none;
 }
+body{
+    font-family: 'Mulie', sans-serif;
+}
 a{
     text-decoration: none;
 }
@@ -13,7 +16,7 @@ a{
 .banner{
     background-color: #2a2a2a;
     color: white;
-    height: 50rem;
+    height: 35rem;
 }
 nav{
     padding: 10px;
@@ -42,6 +45,7 @@ nav{
 .banner-title{
     padding: 10px;
     color: white;
+    font-size: 40px;
 }
 .banner_subtitle{
     padding: 10px;
@@ -51,9 +55,10 @@ nav{
     padding: 10px;
 }
 .forms-download input{
-    background-color: gray;
     width: 100%;
-    padding: 10px 0 10px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .banner-img-ebook{
@@ -63,6 +68,9 @@ nav{
     -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
     box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.58);
+}
+form{
+    width: 70% ;
 }
 .learning{
     margin-top: 150px;
@@ -141,8 +149,11 @@ footer{
     .container{
         padding: 50px 100px 50px 100px;
     }
+    .btn-pink{
+        font-size: 22px;
+    }
     .banner-img-ebook{
-        padding: 170px;
+        padding: 135px;
     }
     .container-learning{
         display: flex;
@@ -179,5 +190,15 @@ footer{
     }
     .hidden-footer-desktop{
         display: flex;
-    }   
+    } 
+    .container-download-title{
+        font-size: 36px;
+    } 
+    .container-download-subtitle{
+        padding: 25px;
+    } 
+    .container-download-btn{
+        width: 50%;
+        font-size: 20px;
+    }
 }
