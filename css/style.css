@@ -16,7 +16,7 @@ a{
 .banner{
     background-color: #2a2a2a;
     color: white;
-    height: 35rem;
+    height: 55rem;
 }
 nav{
     padding: 10px;
@@ -109,6 +109,21 @@ form{
     background-color: #2a2a2a;
     color: white;
 }
+.container-download{
+    text-align: center;
+}
+.container-download-title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.container-download-subtitle{
+    padding: 25px;
+} 
+.container-download-btn{
+    font-size: 18px;
+    width: 85%;
+}
 .message-error{
     color: #f63048;
 }
@@ -152,6 +167,9 @@ footer{
     .btn-pink{
         font-size: 22px;
     }
+    .banner{
+        height: 35rem;
+    }
     .banner-img-ebook{
         padding: 135px;
     }
@@ -194,9 +212,7 @@ footer{
     .container-download-title{
         font-size: 36px;
     } 
-    .container-download-subtitle{
-        padding: 25px;
-    } 
+    
     .container-download-btn{
         width: 50%;
         font-size: 20px;
