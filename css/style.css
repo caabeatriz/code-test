@@ -4,11 +4,12 @@
     border: none;
 }
 body{
-    font-family: 'Mulie', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 a{
     text-decoration: none;
 }
+
 .container{
     padding: 25px;
 }
@@ -16,7 +17,7 @@ a{
 #banner{
     background-color: #2a2a2a;
     color: white;
-    height: 55rem;
+    height: 60rem;
 }
 nav{
     padding: 10px;
@@ -84,7 +85,7 @@ form{
 }
 
 .color-gray{
-    color: gray;
+    color: #CACACA;
 }
 .learning-cap-box_imgTitle{
     display: flex;
@@ -164,7 +165,28 @@ footer{
     justify-content: space-around;
     text-align: center;
 }
-
+.banner-thankyou{
+    background-color: #2a2a2a;
+    color: white;
+    height: 52rem;
+}
+.banner-shared .social-media{
+    width: 8%;
+}
+.banner-shared .social-media-icons{
+    justify-content: end;
+}
+.banner-shared .social-media-img{
+    width: 75%;
+}
+#page-thankyou .container-footer{
+    padding: 25px;
+    text-align: center;
+    color: black;
+}
+.container-footer p{
+    color: black;
+}
 @media screen and (min-width: 999px){
     .container{
         padding: 50px 100px 50px 100px;
@@ -228,5 +250,37 @@ footer{
     .container-download-btn{
         width: 50%;
         font-size: 20px;
+    }
+    /* page 2 */
+   
+    #page-thankyou .banner-subtitle-download .btn-pink{
+        width: 80%;
+    }
+    .banner-thankyou{
+        height: 45rem;
+    }
+    .banner-shared{
+        display: flex;
+        width: 55%;
+        align-items: center;
+    }
+    .banner-shared p {
+        width: 50%;
+        font-size: 14px;
+    }
+    .banner-shared .social-media-icons{
+        width: 33%;
+    }
+    .banner-shared .social-media{
+        height: 50%;
+        width: 20%;
+        padding: 7px;
+        margin: 0 8px 0 0;
+    }
+    .banner-shared .social-media-img{
+        width: 100%;
+    }
+    #page-thankyou .container-footer p{
+        text-align: left;
     }
 }
