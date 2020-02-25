@@ -2,6 +2,7 @@ const inputName = document.querySelector("#bannerName")
 const messageErrorName = document.querySelector("#error")
 const inputEmail = document.querySelector("#bannerEmail")
 const messageErrorEmail = document.querySelector("#errorEmail") 
+const btnDownload = document.querySelector("#forms-download-btn")
 
 inputName.addEventListener("blur", function(event){
     event.preventDefault()
@@ -28,3 +29,13 @@ inputEmail.addEventListener("keyup", function(event){
    event.preventDefault()
     messageErrorEmail.style.display = "none";
 })
+
+
+// btnDownload.addEventListener("click", function(event){
+//     event.preventDefault();
+
+//     if(messageErrorName.style.display == "none" && messageErrorEmail.style.display == "none"){
+//         location.href="thankyou.html"
+
+//     }
+// })
