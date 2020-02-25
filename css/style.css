@@ -8,6 +8,7 @@ body{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 .container{
@@ -261,7 +262,7 @@ footer{
     }
     .banner-shared{
         display: flex;
-        width: 55%;
+        width: 60%;
         align-items: center;
     }
     .banner-shared p {
