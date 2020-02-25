@@ -11,7 +11,11 @@
 
 <body>
 
-    <header class="banner">
+  
+    
+    
+        
+    <header id="banner">
         <div class="container">
             <div class="hidden-banner-desktop">
                 <div class="banner-box-titles">
@@ -32,16 +36,16 @@
                         <div class="forms-download">
                             <div class="forms-download-box-input">
                                 <h4 for="">Nome completo*</h4>
-                                <input type="text" placeholder="Nome" id="bannerName">
+                                <input type="text" placeholder="Nome" id="bannerName" required>
                                 <p id="error" class="message-error"></p>
                             </div>
                             <div class="forms-download-box-input">
                                 <h4 for="">Email*</h4>
-                                <input type="email" placeholder="Seuemail@email.com" id="bannerEmail">
+                                <input type="email" placeholder="Seuemail@email.com" id="bannerEmail" required>
                                 <p id="errorEmail" class="message-error"></p>
 
                             </div>
-                            <button class="btn-pink"> Receber conteúdo gratuito</button>
+                            <button class="btn-pink" onClick="Nova()"> Receber conteúdo gratuito</button>
                         </div>
                     </form>
                 </div>
@@ -131,14 +135,11 @@
                     </p>
 
                     <p class="teachers-subtitle">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dignissimos illum corporis,
-                        magnam reprehenderit dicta molestiae iste, libero accusantium, vitae aspernatur neque possimus
-                        quibusdam velit quisquam quidem ex. Sit, aut!
+                       Coloque aqui uma descrição e conquistar do professor para dar mais credibilidade para o seu curso. Mostre que ele entende do assunto.
                     </p>
                     <p class="teachers-subtitle font-bold">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eius totam velit cum
-                        doloremque ducimus amet nobis accusamus aperiam voluptatem, tempora ea. Incidunt, quibusdam vel
-                        similique impedit explicabo aliquid maiores.
+                        doloremque ducimus amet nobis accusamus aperiam voluptatem.
                     </p>
                 </div>
             </div>
@@ -150,15 +151,15 @@
         <div class="container">
             <div class="container-download">
                 <p class="container-download-title">Não perca essa chance e garanta esse conteúdo agora mesmo</p>
-                <p class="container-download-subtitle">Descreva que dor sue e-book resolve</p>
-                <button class="btn-pink container-download-btn">
+                <p class="container-download-subtitle">Descreva que dor seu e-book resolve</p>
+                <a class="btn-pink container-download-btn" href="#banner">
                     Receber conteúdo gratuito
-                </button>
+                </a>
             </div>
         </div>
     </section>
     <footer>
-        <div class="container">
+        <div class="container-footer">
             <div class="hidden-footer-desktop">
                 <div class="box-logo-footer">
                     <a href="">
@@ -170,17 +171,17 @@
                 <div class="social-media-icons">
 
                     <div class="instagram social-media">
-                        <a href="http://"><img src="assets/img/instagram.png" class="social-media-img" alt=""> </a>
+                        <a href="http://"><img src="assets/img/instagram.png" class="social-media-img" alt="ícone do instagram preto"> </a>
                     </div>
 
 
                     <div class="instagram social-media">
-                        <a href="http://"><img src="assets/img/facebook.png" class="social-media-img alt="" > </a>    
+                        <a href="http://"><img src="assets/img/facebook.png" class="social-media-img" alt="ícone do facebook preto" > </a>    
                         </div>
                 
                 
                         <div class=" instagram social-media">
-                            <a href="http://"><img src="assets/img/youtube.png" class="social-media-img alt=""> </a>    
+                            <a href="http://"><img src="assets/img/youtube.png" class="social-media-img" alt="ícone do youtube preto"> </a>    
                         </div>
                 
                 </div>        
